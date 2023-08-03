@@ -1,4 +1,4 @@
 return {
-  colorscheme = "kanagawa",
+  colorscheme = "catppuccin",
 }
 

@@ -1,11 +1,10 @@
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.colorscheme.nightfox", enabled = true },
   {
-    import = "astrocommunity.colorscheme.kanagawa",
-  },
-  {
-    import = "astrocommunity.colorscheme.oxocarbon",
-    enabled = true,
-  },
+      "catppuccin/nvim",
+      name = "catppuccin",
+      config = function()
+        require("catppuccin").setup {}
+      end,
+    },
 }
