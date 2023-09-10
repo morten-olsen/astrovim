@@ -8,4 +8,5 @@ return {
   -- { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.rust" },
 }
